@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  gap: 15px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .navigation {
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #09035D;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.link:hover {
+  color: #7871DE;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .link {
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .link:hover {
+    color: #09035D;
+  }
+}

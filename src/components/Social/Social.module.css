@@ -1,0 +1,40 @@
+.social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.icon {
+  width: 22px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7871DE;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background: #0B84EE;
+}
+
+.instagram:hover {
+  background: radial-gradient(230.93% 230.93% at 102.01% 2.03%, #F9ED32 0%, #EE2A7B 36%, #D22A8A 44%, #8B2AB2 60%, #1B2AF0 83%, #002AFF 88%);
+}
+
+.telegram:hover {
+  background: #27A6E5;
+}
+
+.vk:hover {
+  background: #0077FF;
+}
+
+.image {
+  display: block;
+  margin: auto;
+}

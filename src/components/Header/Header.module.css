@@ -1,0 +1,17 @@
+.header {
+  padding: 40px calc((100vw - 1440px)/2 + 50px) 80px;
+  background: #EDEBFC;
+  position: relative;
+}
+
+@media screen and (max-width: 1439.98px) {
+  .header {
+    padding: 40px 50px 80px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .header {
+    padding: 40px 20px 80px;
+  }
+}
