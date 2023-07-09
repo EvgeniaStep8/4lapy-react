@@ -2,4 +2,85 @@
   display: flex;
 	margin-bottom: 40px;
 	justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+	max-width: 112px;
+  min-height: 32px;
+  background: #EDEBFC;
+}
+
+.buttonOpen {
+  border: none;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background: url("../../images/nav.svg") center no-repeat;
+  width: 23px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.buttonOpen:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .buttonOpen {
+    visibility: visible;
+  }
+}
+
+.menu {
+	display: flex;
+	gap: 80px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .menu {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s linear;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(120, 113, 222, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.menuOpen {
+	visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.buttonClose {
+	display: none;
+  border: none;
+  background: url('../../images/close-btn.svg') center no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.buttonClose:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .buttonClose {
+    display: block;
+  }
 }

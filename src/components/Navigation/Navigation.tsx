@@ -8,10 +8,10 @@ const Navigation: FC = () => {
         Причины дрессировки
       </a>
       <a href="#dog-handler" className={styles.link}>
-        C&nbspкинологом лучше
+        C&nbsp;кинологом лучше
       </a>
       <a href="#about-me" className={styles.link}>
-        Почему&nbspя
+        Почему&nbsp;я
       </a>
       <a href="#training" className={styles.link}>
         Этапы дрессировки
