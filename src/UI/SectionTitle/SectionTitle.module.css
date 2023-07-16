@@ -1,0 +1,22 @@
+.SectionTitle {
+	margin: 0;
+  padding: 0;
+	font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.white {
+	color: #fff;
+}
+
+.dark {
+	color: #09035D;
+}
+
+@media screen and (max-width: 767.98px) {
+  .SectionTitle {
+    font-size: 30px;
+  }
+}
