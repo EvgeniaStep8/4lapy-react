@@ -1,5 +1,6 @@
 import Header from '../Header/Header';
 import Info from '../Info/Info';
+import Reasons from '../Reasons/Reasons';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <Info />
+        <Reasons />
       </main>
     </div>
   );
