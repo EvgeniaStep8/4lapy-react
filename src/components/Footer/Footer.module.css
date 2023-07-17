@@ -1,0 +1,39 @@
+.Footer {
+  padding: 40px calc((100vw - 1440px)/2 + 50px);
+  background-color: #EDEBFC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 105px;
+}
+
+.copyright {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #09035D;
+}
+
+@media screen and (max-width: 1439.98px) {
+  .Footer {
+    padding: 40px 50px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .Footer {
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .copyright {
+    font-size: 12px;
+  }
+}
+

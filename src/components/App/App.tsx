@@ -1,8 +1,10 @@
+import { FC } from 'react';
 import Header from '../Header/Header';
 import Info from '../Info/Info';
 import Reasons from '../Reasons/Reasons';
+import Footer from '../Footer/Footer';
 
-function App() {
+const App: FC = () => {
   return (
     <div className='App'>
       <Header />
@@ -10,6 +12,7 @@ function App() {
         <Info />
         <Reasons />
       </main>
+      <Footer />
     </div>
   );
 }
